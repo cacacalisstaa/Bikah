@@ -1,10 +1,5 @@
-/* Behind The Bin (BIKAH) - stylesheet utama */
-
 @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&display=swap");
 
-/* ==========================================================
-   01. DASAR (warna, font, reset, tombol)
-   ========================================================== */
 :root {
   --ink: #0f2412;
   --dk: #14401c;
@@ -101,7 +96,6 @@ h4 {
   margin-bottom: 14px;
 }
 
-/* label kecil ala stiker */
 .sc {
   display: inline-block;
   padding: 4px 14px;
@@ -113,7 +107,6 @@ h4 {
   transform: rotate(-2deg);
 }
 
-/* tombol */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -146,9 +139,7 @@ h4 {
   box-shadow: 2px 2px 0 var(--ink);
 }
 
-/* ==========================================================
-   02. NAVBAR
-   ========================================================== */
+/* Navbar */
 .nav {
   position: sticky;
   top: 0;
@@ -248,12 +239,7 @@ body:has(:is(#data, #perjalanan, #solusi, #peran):target)
   color: var(--ink);
 }
 
-/* ==========================================================
-   03. BERANDA
-   ========================================================== */
-/* ==========================================================
-   03. BERANDA
-   ========================================================== */
+/* Beranda */
 .hero {
   position: relative;
   overflow: hidden;
@@ -307,7 +293,6 @@ body:has(:is(#data, #perjalanan, #solusi, #peran):target)
   flex-wrap: wrap;
 }
 
-/* FOTO */
 .hero-art {
   position: absolute;
   z-index: 1;
@@ -358,7 +343,6 @@ body:has(:is(#data, #perjalanan, #solusi, #peran):target)
   stroke-width: 3px;
 }
 
-/* STIKER */
 .hero-tag {
   position: absolute;
   z-index: 3;
@@ -385,9 +369,6 @@ body:has(:is(#data, #perjalanan, #solusi, #peran):target)
   transform: rotate(-3deg);
 }
 
-/* ==========================================================
-   04. INTRO
-   ========================================================== */
 .intro-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -395,9 +376,7 @@ body:has(:is(#data, #perjalanan, #solusi, #peran):target)
   align-items: center;
 }
 
-/* ==========================================================
-   05. DATA
-   ========================================================== */
+/* data sampah */
 .dhero {
   padding: 72px 0 120px;
   background: var(--dk);
@@ -734,9 +713,7 @@ body:has(:is(#data, #perjalanan, #solusi, #peran):target)
   background: var(--org);
 }
 
-/* ==========================================================
-   06. KENALI SAMPAH
-   ========================================================== */
+/* Mengenal sampah */
 .kenali-sampah {
   padding: 88px 0;
   background: var(--lime);
@@ -849,9 +826,7 @@ body:has(:is(#data, #perjalanan, #solusi, #peran):target)
   background: var(--yel);
 }
 
-/* ==========================================================
-   07. POPUP
-   ========================================================== */
+/* popup */
 .popup-check {
   display: none;
 }
@@ -997,9 +972,7 @@ body:has(:is(#data, #perjalanan, #solusi, #peran):target)
   color: var(--lime);
 }
 
-/* ==========================================================
-   08. PERJALANAN
-   ========================================================== */
+/* perjalanan samoah */
 .journey-section {
   padding: 88px 0 100px;
   background: var(--paper);
@@ -1167,9 +1140,7 @@ body:has(:is(#data, #perjalanan, #solusi, #peran):target)
   color: #d3e6c6;
 }
 
-/* ==========================================================
-   09. SOLUSI
-   ========================================================== */
+/* solusi */
 .solusi-section {
   padding: 88px 0;
   background: #fff;
@@ -1306,9 +1277,7 @@ body:has(:is(#data, #perjalanan, #solusi, #peran):target)
   display: none;
 }
 
-/* ==========================================================
-   10. MENUJU 2029 (tangga naik)
-   ========================================================== */
+/* target 2029 */
 .solusi-roadmap {
   margin-top: 110px;
 }
@@ -1429,9 +1398,7 @@ body:has(:is(#data, #perjalanan, #solusi, #peran):target)
   text-underline-offset: 3px;
 }
 
-/* ==========================================================
-   11. PERAN
-   ========================================================== */
+/* peran kita */
 .role-section {
   background: var(--paper);
   border-top: var(--bd);
@@ -1517,9 +1484,7 @@ body:has(:is(#data, #perjalanan, #solusi, #peran):target)
   box-shadow: 4px 4px 0 var(--lime);
 }
 
-/* ==========================================================
-   12. FOOTER
-   ========================================================== */
+/* footer */
 footer {
   padding: 56px 0 0;
   background: var(--dk);
@@ -1575,9 +1540,7 @@ footer li a:hover {
   text-align: center;
 }
 
-/* ==========================================================
-   13. RESPONSIF (selalu paling bawah)
-   ========================================================== */
+/* mengatur responsif */
 @media (max-width: 1000px) {
   .hero .wrap,
   .intro-grid,
